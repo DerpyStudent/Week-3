@@ -1,0 +1,12 @@
+
+line (x+22, y+22, x+22, y+22);
+
+just wanted to see what kind of lines it drew, turned out to be diagonal
+
+had to set the second x and y to be the right coordinates
+
+set the second y variable to equal the first one, creating a horizontal line
+
+Repeated the previous step for the second line, except for the x variable, to create verticle lines
+
+Decided to make the line length 6, so that 3 would be the medial, which is where the second line would go
