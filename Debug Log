@@ -24,4 +24,21 @@ I was expecting the squares to be grey, and they were, but I need to figure out 
 
 Im guessing there is a random() command or something similar, cant remember
 
+I tried fill(random(255));
+
+it made it random shades of gray, animated
+
+tried 
+
+fill(random(255), random(255), random(255));
+
+made it random fill colors, and animated, black border on each square
+
+is there a border or noBorder() command?
+
+stroke(255) did the trick
+
+still animated though
+
+decided to make the width and height bigger because I like it more, 
 
