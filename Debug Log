@@ -1,4 +1,4 @@
-
+#1
 line (x+22, y+22, x+22, y+22);
 
 just wanted to see what kind of lines it drew, turned out to be diagonal
@@ -10,3 +10,18 @@ set the second y variable to equal the first one, creating a horizontal line
 Repeated the previous step for the second line, except for the x variable, to create verticle lines
 
 Decided to make the line length 6, so that 3 would be the medial, which is where the second line would go
+
+
+#2
+replaced the line() code from the first assignment with
+rectMode(CENTER);
+fill(100);
+rect(25+x, 25+y, 6, 6);
+
+because the line length was 6, so the center would be 3, 22+3=25. 
+
+I was expecting the squares to be grey, and they were, but I need to figure out how to make the fill random
+
+Im guessing there is a random() command or something similar, cant remember
+
+
