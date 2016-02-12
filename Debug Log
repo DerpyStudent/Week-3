@@ -1,3 +1,4 @@
+/* 
 #1
 line (x+22, y+22, x+22, y+22);
 
@@ -43,6 +44,57 @@ still animated though
 decided to make the width and height bigger because I like it more
 
 added noLoop(); to setup, made it stop being animated
+
+#3
+
+Using the previous code, I have a grid of white squares with black stroke
+
+Trried adding a code for white squares with with borders, and random(0,100)*x+25
+
+Didnt work, only got rid of first square
+
+changed the parameters of random() to 0,10
+
+Now I have random white on white squares, but they dotn voerlap the old spots
+
+tried to use an array, did not work
+
+created a if statement using random
+
+float rand=random(0,50);
+if(rand<25){
+tried to add at the beginning of the draw() function
+it applied it to all of the squares at once
+
+Was asked by JD, where am I drawing a square, so I added the if statement to right before the line command.
+
+       float rand= random(0,50);
+  if (rand<25) {
+      rect(25+x, 25+y, 15, 15);
+      
+it worked
+
+adjusted density of squares by making more draw
+
+#4
+used the code from the previous, but had to set the background to change to white, and removed noLoop();
+
+tried background to white at the end, JD said to add at the beginning of the draw
+it worked
+
+now I just have to change it to crosses from squares
+
+copying the code from the first assignment worked, but the animation is too fast
+
+halved the framerate: frameRate(15);
+
+it fixed it, so pretty
+
+
+*/
+
+
+
 
 
 
