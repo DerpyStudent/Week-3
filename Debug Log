@@ -40,5 +40,9 @@ stroke(255) did the trick
 
 still animated though
 
-decided to make the width and height bigger because I like it more, 
+decided to make the width and height bigger because I like it more
+
+added noLoop(); to setup, made it stop being animated
+
+
 
