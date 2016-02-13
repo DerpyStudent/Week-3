@@ -90,6 +90,11 @@ halved the framerate: frameRate(15);
 
 it fixed it, so pretty
 
+#5 tried adding an ellipse, it worked, using mouseX and mouseY, but its drawing too many
+
+tried using spotlight(); but the syntax isnt working for me?
+
+
 
 */
 
